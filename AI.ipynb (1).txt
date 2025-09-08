@@ -1,0 +1,1637 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "3e5ac191b7f64ce0989ca872de5c1695": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_7d160c6cec754c22bb65933623a1140f",
+              "IPY_MODEL_f91429160f6a4febb80a19cfa606450a",
+              "IPY_MODEL_05ed3590b52646ce87cc9d8197e3b989"
+            ],
+            "layout": "IPY_MODEL_7a460a69f03245a1b306cfbe6e6282bc"
+          }
+        },
+        "7d160c6cec754c22bb65933623a1140f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_44061048b1a542c6995084d5226310ed",
+            "placeholder": "​",
+            "style": "IPY_MODEL_851bfd93484f49fa9f60ef14bb6f8dfe",
+            "value": "Batches: 100%"
+          }
+        },
+        "f91429160f6a4febb80a19cfa606450a": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_604964ee8f3843e3be2ebebcd506fb0f",
+            "max": 1,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_12bcf0e7f2604a2b8bc904aa93c52a8c",
+            "value": 1
+          }
+        },
+        "05ed3590b52646ce87cc9d8197e3b989": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_bb854acba2594399a9c5956b4b6c96a2",
+            "placeholder": "​",
+            "style": "IPY_MODEL_12ecf04b4bda4f84854d33aad8207f99",
+            "value": " 1/1 [00:01&lt;00:00,  1.17s/it]"
+          }
+        },
+        "7a460a69f03245a1b306cfbe6e6282bc": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "44061048b1a542c6995084d5226310ed": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "851bfd93484f49fa9f60ef14bb6f8dfe": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "604964ee8f3843e3be2ebebcd506fb0f": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "12bcf0e7f2604a2b8bc904aa93c52a8c": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "bb854acba2594399a9c5956b4b6c96a2": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "12ecf04b4bda4f84854d33aad8207f99": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "egynq8NckOpL",
+        "outputId": "d2f35344-2d14-481d-f5a0-a055d080fbcf"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Drive already mounted at /content/drive/; to attempt to forcibly remount, call drive.mount(\"/content/drive/\", force_remount=True).\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "# 0.1: Enable GPU in Colab: Runtime -> Change runtime type -> GPU\n",
+        "# 0.2: Mount Google Drive so persistence survives sessions\n",
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive/')\n",
+        "# Choose a folder to store DB files e.g. /content/drive/MyDrive/rag_chroma"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "# 2) Set path to your folder (change to the shortcut path you created)\n",
+        "\n",
+        "\n",
+        "\n",
+        "FOLDER_PATH = \"/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf\"   # <- update this to the actual folder name\n",
+        "#FOLDER_PATH = \"/content/drive/MyDrive/Dataset\"   # <- update this to the actual folder name"
+      ],
+      "metadata": {
+        "id": "u3MjnV0lqnii"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "\n",
+        "print(\"Files in folder:\", os.listdir(FOLDER_PATH))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 300
+        },
+        "id": "AAmOmnJprSzT",
+        "outputId": "4b3dd03d-d7fd-4940-f113-db1adedf25d7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NotADirectoryError",
+          "evalue": "[Errno 20] Not a directory: '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNotADirectoryError\u001b[0m                        Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-3158596604.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Files in folder:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlistdir\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mFOLDER_PATH\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNotADirectoryError\u001b[0m: [Errno 20] Not a directory: '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#!pip install -q chromadb sentence-transformers transformers accelerate faiss-cpu pdfplumber python-docx nltk"
+      ],
+      "metadata": {
+        "id": "NuvLNdIMsFom"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import nltk\n",
+        "nltk.download('punkt')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6DPuYM5ksTm3",
+        "outputId": "1be3eab9-3e73-4fbd-f260-dd99f075e070"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "[nltk_data] Downloading package punkt to /root/nltk_data...\n",
+            "[nltk_data]   Package punkt is already up-to-date!\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 58
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sentence_transformers import SentenceTransformer\n",
+        "import chromadb\n",
+        "from chromadb.config import Settings, DEFAULT_TENANT, DEFAULT_DATABASE"
+      ],
+      "metadata": {
+        "id": "vJg0IuomsoNt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Persistence directory for DB (in Drive so it survives sessions)\n",
+        "PERSIST_DIR = \"/content/drive/MyDrive/rag_chroma_db\"\n",
+        "os.makedirs(PERSIST_DIR, exist_ok=True)"
+      ],
+      "metadata": {
+        "id": "A7yXOFE1sst2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create PersistentClient\n",
+        "client = chromadb.PersistentClient(\n",
+        "    path=PERSIST_DIR,\n",
+        "    settings=Settings(),\n",
+        "    tenant=DEFAULT_TENANT,\n",
+        "    database=DEFAULT_DATABASE,\n",
+        ")"
+      ],
+      "metadata": {
+        "id": "CHqmzWoPtnTh"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Then create / get a collection the same way\n",
+        "collection = client.get_or_create_collection(name=\"docs_collection\")\n",
+        "print(\"✅ Chroma persistent client ready. Path:\", PERSIST_DIR)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RS7PfGgZuBvA",
+        "outputId": "b2637718-75e8-4a2a-f402-89065d361405"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "✅ Chroma persistent client ready. Path: /content/drive/MyDrive/rag_chroma_db\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from pathlib import Path\n",
+        "import pdfplumber, docx\n",
+        "from nltk.tokenize import sent_tokenize\n",
+        "import math"
+      ],
+      "metadata": {
+        "id": "rOS4YJfRs45q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import nltk\n",
+        "\n",
+        "# download standard models (punkt) and a few helpful resources\n",
+        "nltk.download('punkt')\n",
+        "nltk.download('punkt_tab')   # try this if package expects punkt_tab (some chroma/versions mention it)\n",
+        "nltk.download('averaged_perceptron_tagger')\n",
+        "nltk.download('stopwords')\n",
+        "print(\"NLTK resources downloaded\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eLC2KYTJzXLv",
+        "outputId": "2d1da352-1e41-4ae0-9678-83ca74ceab5f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "NLTK resources downloaded\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "[nltk_data] Downloading package punkt to /root/nltk_data...\n",
+            "[nltk_data]   Package punkt is already up-to-date!\n",
+            "[nltk_data] Downloading package punkt_tab to /root/nltk_data...\n",
+            "[nltk_data]   Package punkt_tab is already up-to-date!\n",
+            "[nltk_data] Downloading package averaged_perceptron_tagger to\n",
+            "[nltk_data]     /root/nltk_data...\n",
+            "[nltk_data]   Package averaged_perceptron_tagger is already up-to-\n",
+            "[nltk_data]       date!\n",
+            "[nltk_data] Downloading package stopwords to /root/nltk_data...\n",
+            "[nltk_data]   Package stopwords is already up-to-date!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from nltk.tokenize import sent_tokenize\n",
+        "import math\n",
+        "\n",
+        "def chunk_text_safe(text, max_words=300, overlap_words=50):\n",
+        "    # Try using sent_tokenize; if it errors, fallback to simple split\n",
+        "    try:\n",
+        "        sents = sent_tokenize(text)\n",
+        "        if not sents or len(\" \".join(sents).strip()) == 0:\n",
+        "            raise ValueError(\"sent_tokenize returned empty\")\n",
+        "    except Exception as e:\n",
+        "        # fallback: naive split into word windows\n",
+        "        words = text.split()\n",
+        "        chunks = []\n",
+        "        step = max_words - overlap_words\n",
+        "        if step <= 0:\n",
+        "            step = max(1, max_words // 2)\n",
+        "        for i in range(0, max(1, len(words)), step):\n",
+        "            chunk_words = words[i:i+max_words]\n",
+        "            if chunk_words:\n",
+        "                chunks.append(\" \".join(chunk_words))\n",
+        "        return chunks\n",
+        "\n",
+        "    # build chunks from sentences\n",
+        "    chunks, cur, cur_len = [], [], 0\n",
+        "    for s in sents:\n",
+        "        l = len(s.split())\n",
+        "        if cur_len + l > max_words and cur:\n",
+        "            chunks.append(\" \".join(cur))\n",
+        "            # keep some overlap using last few sentences\n",
+        "            overlap_keep = max(1, math.floor(overlap_words / 10))\n",
+        "            cur = cur[-overlap_keep:]\n",
+        "            cur_len = sum(len(x.split()) for x in cur)\n",
+        "        cur.append(s)\n",
+        "        cur_len += l\n",
+        "    if cur:\n",
+        "        chunks.append(\" \".join(cur))\n",
+        "    return chunks"
+      ],
+      "metadata": {
+        "id": "IgzyZFuZzf2Y"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def read_txt(path):\n",
+        "    return Path(path).read_text(encoding=\"utf-8\", errors=\"ignore\")\n",
+        "\n",
+        "def read_docx(path):\n",
+        "    doc = docx.Document(path)\n",
+        "    return \"\\n\".join([p.text for p in doc.paragraphs])\n",
+        "\n",
+        "def read_pdf(path):\n",
+        "    text = []\n",
+        "    with pdfplumber.open(path) as pdf:\n",
+        "        for page in pdf.pages:\n",
+        "            t = page.extract_text()\n",
+        "            if t:\n",
+        "                text.append(t)\n",
+        "    return \"\\n\".join(text)\n",
+        "\n",
+        "def extract_text(path):\n",
+        "    p = Path(path)\n",
+        "    suffix = p.suffix.lower()\n",
+        "    if suffix in [\".txt\", \".md\"]:\n",
+        "        return read_txt(p)\n",
+        "    if suffix == \".pdf\":\n",
+        "        return read_pdf(p)\n",
+        "    if suffix == \".docx\":\n",
+        "        return read_docx(p)\n",
+        "    # fallback - try reading as text\n",
+        "    return read_txt(p)\n",
+        "\n",
+        "def chunk_text(text, max_words=300, overlap_words=50):\n",
+        "    sents = sent_tokenize(text)\n",
+        "    chunks, cur, cur_len = [], [], 0\n",
+        "    for s in sents:\n",
+        "        l = len(s.split())\n",
+        "        if cur_len + l > max_words and cur:\n",
+        "            chunks.append(\" \".join(cur))\n",
+        "            # naive overlap: keep last few sentences for context\n",
+        "            cur = cur[-3:]\n",
+        "            cur_len = sum(len(x.split()) for x in cur)\n",
+        "        cur.append(s); cur_len += l\n",
+        "    if cur:\n",
+        "        chunks.append(\" \".join(cur))\n",
+        "    return chunks"
+      ],
+      "metadata": {
+        "id": "5y8H8m_eu-8U"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Embedding model (local, free)\n",
+        "EMB_MODEL = \"all-MiniLM-L6-v2\"  # sentence-transformers model\n",
+        "embed_model = SentenceTransformer(EMB_MODEL)"
+      ],
+      "metadata": {
+        "id": "Ivn4IoJCvOYV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Replace with your specific file path\n",
+        "test_file = \"/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf\"\n",
+        "\n",
+        "# use ingest function but call chunk_text_safe\n",
+        "def ingest_file_to_chroma_safe(file_path):\n",
+        "    try:\n",
+        "        text = extract_text(file_path)\n",
+        "    except Exception as e:\n",
+        "        print(\"Failed to extract text:\", e)\n",
+        "        return 0\n",
+        "\n",
+        "    if not text or len(text.strip()) == 0:\n",
+        "        print(\"No text extracted from:\", file_path)\n",
+        "        return 0\n",
+        "\n",
+        "    try:\n",
+        "        chunks = chunk_text_safe(text, max_words=300, overlap_words=50)\n",
+        "    except Exception as e:\n",
+        "        print(\"Chunking failed:\", e)\n",
+        "        return 0\n",
+        "\n",
+        "    if not chunks:\n",
+        "        print(\"No chunks produced for\", file_path)\n",
+        "        return 0\n",
+        "\n",
+        "    try:\n",
+        "        embeddings = embed_model.encode(chunks, show_progress_bar=True).tolist()\n",
+        "        ids = [f\"{Path(file_path).stem}_c{i}\" for i in range(len(chunks))]\n",
+        "        metadatas = [{\"source\": str(file_path), \"chunk_index\": i} for i in range(len(chunks))]\n",
+        "        collection.add(ids=ids, documents=chunks, metadatas=metadatas, embeddings=embeddings)\n",
+        "        client.persist()\n",
+        "        print(f\"Ingested {file_path} -> {len(chunks)} chunks\")\n",
+        "        return len(chunks)\n",
+        "    except Exception as e:\n",
+        "        print(\"Failed to ingest\", file_path, \":\\n\", e)\n",
+        "        return 0\n",
+        "\n",
+        "# run test ingest\n",
+        "ingested = ingest_file_to_chroma_safe(test_file)\n",
+        "print(\"Ingester returned:\", ingested)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 121,
+          "referenced_widgets": [
+            "3e5ac191b7f64ce0989ca872de5c1695",
+            "7d160c6cec754c22bb65933623a1140f",
+            "f91429160f6a4febb80a19cfa606450a",
+            "05ed3590b52646ce87cc9d8197e3b989",
+            "7a460a69f03245a1b306cfbe6e6282bc",
+            "44061048b1a542c6995084d5226310ed",
+            "851bfd93484f49fa9f60ef14bb6f8dfe",
+            "604964ee8f3843e3be2ebebcd506fb0f",
+            "12bcf0e7f2604a2b8bc904aa93c52a8c",
+            "bb854acba2594399a9c5956b4b6c96a2",
+            "12ecf04b4bda4f84854d33aad8207f99"
+          ]
+        },
+        "id": "yanTiVzB0SJq",
+        "outputId": "8c49bbba-7e6d-46cc-f55c-ba49f794bd6e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Batches:   0%|          | 0/1 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "3e5ac191b7f64ce0989ca872de5c1695"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Failed to ingest /content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf :\n",
+            " 'Client' object has no attribute 'persist'\n",
+            "Ingester returned: 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def ingest_file_to_chroma(file_path):\n",
+        "    text = extract_text(file_path)\n",
+        "    if not text or len(text.strip()) == 0:\n",
+        "        print(\"No text extracted from:\", file_path)\n",
+        "        return 0\n",
+        "    chunks = chunk_text(text, max_words=300, overlap_words=50)\n",
+        "    embeddings = embed_model.encode(chunks, show_progress_bar=False).tolist()\n",
+        "    ids = [f\"{Path(file_path).stem}_c{i}\" for i in range(len(chunks))]\n",
+        "    metadatas = [{\"source\": str(file_path), \"chunk_index\": i} for i in range(len(chunks))]\n",
+        "    collection.add(ids=ids, documents=chunks, metadatas=metadatas, embeddings=embeddings)\n",
+        "    client.persist()\n",
+        "    print(f\"Ingested {file_path} -> {len(chunks)} chunks\")\n",
+        "    return len(chunks)"
+      ],
+      "metadata": {
+        "id": "59qz0JsHvUsO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from pathlib import Path\n",
+        "DATA_FOLDER = FOLDER_PATH  # from Cell 1"
+      ],
+      "metadata": {
+        "id": "51WXkvykvh7b"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "p = Path(FOLDER_PATH)\n",
+        "if not p.exists():\n",
+        "    raise SystemExit(\"DATA_FOLDER not found - update DRIVE_FOLDER path (Cell 1).\")\n",
+        "\n",
+        "total_chunks = 0\n",
+        "for f in sorted(p.glob(\"*\")):\n",
+        "    if f.suffix.lower() in [\".pdf\", \".txt\", \".md\", \".docx\"]:\n",
+        "        try:\n",
+        "            total_chunks += ingest_file_to_chroma(str(f))\n",
+        "        except Exception as e:\n",
+        "            print(\"Failed to ingest\", f, \":\", e)\n",
+        "\n",
+        "print(\"Bulk ingest finished. Total chunks:\", total_chunks)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S_xrhsDhv1V3",
+        "outputId": "fa337bc6-e765-4b6f-c300-dbd9fad56fa9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bulk ingest finished. Total chunks: 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def retrieve(query, top_k=5):\n",
+        "    q_emb = embed_model.encode([query]).tolist()\n",
+        "    results = collection.query(query_embeddings=q_emb, n_results=top_k, include=[\"documents\",\"metadatas\",\"distances\"])\n",
+        "    rows = results['results'][0]\n",
+        "    docs = [{\"text\": t, \"meta\": m, \"score\": s} for t,m,s in zip(rows['documents'], rows['metadatas'], rows['distances'])]\n",
+        "    return docs"
+      ],
+      "metadata": {
+        "id": "CCTwYPFVwRzo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Quick sanity check (after ingestion)\n",
+        "if collection.count() > 0:\n",
+        "    print(\"Collection size (items):\", collection.count())\n",
+        "else:\n",
+        "    print(\"Collection appears empty. Did ingestion run correctly?\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZwySUJZWwVcV",
+        "outputId": "3b3ddac2-29a3-4888-ed9d-f9ffb9876def"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collection size (items): 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import torch\n",
+        "from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline\n",
+        "\n",
+        "GEN_MODEL = \"google/flan-t5-base\"  # choose smaller if GPU RAM is limited"
+      ],
+      "metadata": {
+        "id": "fIfyEF-_wcrD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "device = 0 if torch.cuda.is_available() else -1\n",
+        "\n",
+        "print(\"Loading generator model (this may take a minute)...\")\n",
+        "tokenizer = AutoTokenizer.from_pretrained(GEN_MODEL)\n",
+        "gen_model = AutoModelForSeq2SeqLM.from_pretrained(GEN_MODEL).to(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n",
+        "gen_pipeline = pipeline(\"text2text-generation\", model=gen_model, tokenizer=tokenizer, device=device)\n",
+        "print(\"Generator ready on device:\", \"cuda\" if device==0 else \"cpu\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GpSn9uA4wo_J",
+        "outputId": "5a5f8db6-2b2f-48d2-91d1-871cdecc5692"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Loading generator model (this may take a minute)...\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Device set to use cpu\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Generator ready on device: cpu\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def assemble_prompt(query, docs):\n",
+        "    prompt = \"Answer the question using ONLY the following sources. If the answer is not present, say 'I don't know'.\\n\\n\"\n",
+        "    prompt += f\"User question: {query}\\n\\n\"\n",
+        "    for i, d in enumerate(docs):\n",
+        "        m = d[\"meta\"]\n",
+        "        prompt += f\"[S{i}] {m.get('source')} (chunk {m.get('chunk_index')})\\n{d['text']}\\n\\n\"\n",
+        "    prompt += \"\\nAnswer concisely and include source citations like [S0], [S1].\\n\"\n",
+        "    return prompt\n",
+        "\n",
+        "def rag_answer(query, top_k=5, max_new_tokens=200):\n",
+        "    docs = retrieve(query, top_k=top_k)\n",
+        "    prompt = assemble_prompt(query, docs)\n",
+        "    out = gen_pipeline(prompt, max_new_tokens=max_new_tokens, do_sample=False)\n",
+        "    return {\"answer\": out[0]['generated_text'], \"sources\": docs}"
+      ],
+      "metadata": {
+        "id": "3i_wczhuwvib"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Run this to print the exact structure Chroma returns for a query (no assumptions).\n",
+        "query = \"What is a vector database in simple terms?\"\n",
+        "q_emb = embed_model.encode([query]).tolist()\n",
+        "\n",
+        "try:\n",
+        "    raw = collection.query(query_embeddings=q_emb, n_results=4, include=[\"documents\",\"metadatas\",\"distances\"])\n",
+        "    import pprint, json\n",
+        "    print(\"===== raw type:\", type(raw))\n",
+        "    pprint.pprint(raw)\n",
+        "except Exception as e:\n",
+        "    print(\"collection.query raised:\", repr(e))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fy7zHTLx2QCX",
+        "outputId": "cc3c959b-979f-4319-ddfc-94b209f1649a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===== raw type: <class 'dict'>\n",
+            "{'data': None,\n",
+            " 'distances': [[1.5077815055847168, 1.570183277130127, 1.5844018459320068]],\n",
+            " 'documents': [['KIRAN KUMAR LENKA\\n'\n",
+            "                'Data Analyst\\n'\n",
+            "                '● Hyderabad, India 751024 ● 9178052229 ● '\n",
+            "                'kirankumar1.analyst@gmail.com\\n'\n",
+            "                '● https://www.linkedin.com/in/kiran-kumar-lenka\\n'\n",
+            "                'PROFESSIONAL SUMMARY\\n'\n",
+            "                'Detail-oriented and results-driven Data Analyst with 4+ years '\n",
+            "                'of experience in collecting, analyzing,\\n'\n",
+            "                'and interpreting complex data to drive business decisions. '\n",
+            "                'Skilled in SQL, Python, Excel, Power BI,\\n'\n",
+            "                'and Tableau with proven expertise in building dashboards, '\n",
+            "                'generating actionable insights, and\\n'\n",
+            "                'optimizing reporting processes. Strong background in data '\n",
+            "                'visualization, statistical analysis, and\\n'\n",
+            "                'business intelligence, with the ability to collaborate across '\n",
+            "                'teams to improve performance and support\\n'\n",
+            "                'strategic decision-making. Adept at handling large datasets, '\n",
+            "                'ensuring data accuracy, and presenting\\n'\n",
+            "                'findings to both technical and non-technical stakeholders. '\n",
+            "                'SKILLS\\n'\n",
+            "                '• Programming Languages: SQL, DAX, M- • Databases: '\n",
+            "                'PostgreSQL, SQL Server, MySQL. Language. • BI Tools: Power '\n",
+            "                'BI, Report Builder\\n'\n",
+            "                '• ETL Tool & Other Skills: SSIS,\\n'\n",
+            "                'Advance Excel. • Core Skills: Data Analysis, Strategy\\n'\n",
+            "                'Development, Ad-Hoc Analysis, Client\\n'\n",
+            "                'Management, Statistical analysis, hypothesis\\n'\n",
+            "                'testing, problem solving, reporting &\\n'\n",
+            "                'visualization. WORK HISTORY\\n'\n",
+            "                'Lince Soft Solutions Private Limited – Hyderabad\\n'\n",
+            "                'Senior Data Analyst, 04/2021 - Current\\n'\n",
+            "                'E Commerce Analytics\\n'\n",
+            "                'Client: Hive loop logistics Pvt Ltd (Udaan)\\n'\n",
+            "                'Technology/Tools: Data modelling, Data warehousing, SQL '\n",
+            "                'Server, SSIS, Power BI\\n'\n",
+            "                'Description: Udaan is a leading B2B e-commerce platform that '\n",
+            "                'connects retailers, wholesalers, and\\n'\n",
+            "                'manufacturers across India. The project involved analyzing '\n",
+            "                'sales performance, supply chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys.',\n",
+            "                'Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance. • Updated and customized reports based on client '\n",
+            "                'requests, ensuring timely and relevant data\\n'\n",
+            "                'analysis. • Designed and developed paginated reports for '\n",
+            "                'structured business reporting needs. • Ensured paginated '\n",
+            "                'reports met business requirements by applying appropriate '\n",
+            "                'formatting,\\n'\n",
+            "                'filtering, and parameterization. • Optimized report rendering '\n",
+            "                'for efficient performance and scalability, ensuring smooth '\n",
+            "                'data\\n'\n",
+            "                'presentation for stakeholders. EDUCATION\\n'\n",
+            "                '• Bachelor in Science: 2013–16\\n'\n",
+            "                'Berhampur University,Odisha\\n'\n",
+            "                'CERTIFICATION\\n'\n",
+            "                '• Microsoft Power BI Data Analyst Professional Certificate '\n",
+            "                '(PL 300). • MCSA Certified: SQL 2016 BI Development. • Data '\n",
+            "                'Analyst from Hi-Tech institute. PERSONAL DETAILS\\n'\n",
+            "                '• Language: English, Hindi, Odia',\n",
+            "                'The project involved analyzing sales performance, supply '\n",
+            "                'chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys. • Provide detailed analysis '\n",
+            "                'of path to registration and path to purchase to improve '\n",
+            "                'conversion\\n'\n",
+            "                'funnel. • Daily monitoring of e-commerce platforms. • '\n",
+            "                'Analyzing performance of promotional campaigns and customer '\n",
+            "                'behavior data for the online channel. • Built Power BI '\n",
+            "                'dashboards that provided real-time visibility into product '\n",
+            "                'performance, reducing\\n'\n",
+            "                'analysis time by 30% and empowering management with '\n",
+            "                'actionable insights. Loyalty Marketing Analysis\\n'\n",
+            "                'Client: GMS Marketing Service, Singapore\\n'\n",
+            "                'Technology/Tools: SQL Server, SSIS, Power BI. Description: '\n",
+            "                'Specialize in a blend of cutting-edge marketing strategies, '\n",
+            "                'loyalty techniques, and\\n'\n",
+            "                'technology to enhance brand engagement and influence. '\n",
+            "                'Developed and executed a variety of marketing\\n'\n",
+            "                'strategies, leveraging loyalty methodologies and the latest '\n",
+            "                'technologies to foster long-term,\\n'\n",
+            "                'sustainable relationships. Crafted tailored PRM/CRM '\n",
+            "                'strategies to meet the dynamic needs of our\\n'\n",
+            "                'clients, focusing on automation and digital transformation to '\n",
+            "                'enhance customer and partner\\n'\n",
+            "                'relations. Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance.']],\n",
+            " 'embeddings': None,\n",
+            " 'ids': [['Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c0',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c2',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c1']],\n",
+            " 'included': ['documents', 'metadatas', 'distances'],\n",
+            " 'metadatas': [[{'chunk_index': 0,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 2,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 1,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'}]],\n",
+            " 'uris': None}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Replace previous retrieve() with this robust version\n",
+        "def retrieve_safe(query, top_k=5, debug=False):\n",
+        "    q_emb = embed_model.encode([query]).tolist()\n",
+        "    try:\n",
+        "        results = collection.query(query_embeddings=q_emb, n_results=top_k, include=[\"documents\",\"metadatas\",\"distances\"])\n",
+        "    except Exception as e:\n",
+        "        if debug:\n",
+        "            print(\"Chroma query exception:\", e)\n",
+        "        return []\n",
+        "\n",
+        "    # If the result already has 'results' as expected:\n",
+        "    if isinstance(results, dict) and 'results' in results and isinstance(results['results'], list) and len(results['results'])>0:\n",
+        "        rows = results['results'][0]\n",
+        "    # Some versions return a list directly\n",
+        "    elif isinstance(results, list) and len(results)>0 and isinstance(results[0], dict):\n",
+        "        rows = results[0]\n",
+        "    # Some versions return a dict with a single key pointing to the payload\n",
+        "    else:\n",
+        "        # Debug print of unexpected shape\n",
+        "        if debug:\n",
+        "            import pprint\n",
+        "            print(\"Unexpected query result shape:\", type(results))\n",
+        "            pprint.pprint(results)\n",
+        "        return []\n",
+        "\n",
+        "    # Now extract documents/metadatas/distances robustly\n",
+        "    docs_list = rows.get('documents') or rows.get('document') or rows.get('documents_list') or []\n",
+        "    metas_list = rows.get('metadatas') or rows.get('metas') or rows.get('metadata') or []\n",
+        "    dists_list = rows.get('distances') or rows.get('scores') or rows.get('distance') or []\n",
+        "\n",
+        "    # If any list is empty but others are present, try to align lengths\n",
+        "    max_len = max(len(docs_list), len(metas_list), len(dists_list))\n",
+        "    docs = []\n",
+        "    for i in range(max_len):\n",
+        "        txt = docs_list[i] if i < len(docs_list) else \"\"\n",
+        "        meta = metas_list[i] if i < len(metas_list) else {}\n",
+        "        score = dists_list[i] if i < len(dists_list) else None\n",
+        "        if txt or meta:\n",
+        "            docs.append({\"text\": txt, \"meta\": meta, \"score\": score})\n",
+        "\n",
+        "    return docs"
+      ],
+      "metadata": {
+        "id": "2KI9MNen2Zop"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def rag_answer_safe(query, top_k=5, max_new_tokens=200, debug=False):\n",
+        "    docs = retrieve_safe(query, top_k=top_k, debug=debug)\n",
+        "    if not docs:\n",
+        "        if debug:\n",
+        "            print(\"No docs retrieved. Returning fallback answer.\")\n",
+        "        return {\"answer\": \"No relevant sources found.\", \"sources\": []}\n",
+        "    prompt = assemble_prompt(query, docs)\n",
+        "    out = gen_pipeline(prompt, max_new_tokens=max_new_tokens, do_sample=False)\n",
+        "    return {\"answer\": out[0]['generated_text'], \"sources\": docs}"
+      ],
+      "metadata": {
+        "id": "V-3BFpgq2pWZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Test it\n",
+        "q = \"What is a vector database in simple terms?\"\n",
+        "resp = rag_answer_safe(q, top_k=4, debug=True)\n",
+        "print(\"ANSWER:\\n\", resp[\"answer\"])\n",
+        "print(\"\\nSOURCES (meta):\")\n",
+        "for s in resp[\"sources\"]:\n",
+        "    print(s[\"meta\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UBIDJTnf2s_k",
+        "outputId": "30e7679e-8fdc-4fc8-cb2c-b9614555ad29"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Unexpected query result shape: <class 'dict'>\n",
+            "{'data': None,\n",
+            " 'distances': [[1.5077815055847168, 1.570183277130127, 1.5844018459320068]],\n",
+            " 'documents': [['KIRAN KUMAR LENKA\\n'\n",
+            "                'Data Analyst\\n'\n",
+            "                '● Hyderabad, India 751024 ● 9178052229 ● '\n",
+            "                'kirankumar1.analyst@gmail.com\\n'\n",
+            "                '● https://www.linkedin.com/in/kiran-kumar-lenka\\n'\n",
+            "                'PROFESSIONAL SUMMARY\\n'\n",
+            "                'Detail-oriented and results-driven Data Analyst with 4+ years '\n",
+            "                'of experience in collecting, analyzing,\\n'\n",
+            "                'and interpreting complex data to drive business decisions. '\n",
+            "                'Skilled in SQL, Python, Excel, Power BI,\\n'\n",
+            "                'and Tableau with proven expertise in building dashboards, '\n",
+            "                'generating actionable insights, and\\n'\n",
+            "                'optimizing reporting processes. Strong background in data '\n",
+            "                'visualization, statistical analysis, and\\n'\n",
+            "                'business intelligence, with the ability to collaborate across '\n",
+            "                'teams to improve performance and support\\n'\n",
+            "                'strategic decision-making. Adept at handling large datasets, '\n",
+            "                'ensuring data accuracy, and presenting\\n'\n",
+            "                'findings to both technical and non-technical stakeholders. '\n",
+            "                'SKILLS\\n'\n",
+            "                '• Programming Languages: SQL, DAX, M- • Databases: '\n",
+            "                'PostgreSQL, SQL Server, MySQL. Language. • BI Tools: Power '\n",
+            "                'BI, Report Builder\\n'\n",
+            "                '• ETL Tool & Other Skills: SSIS,\\n'\n",
+            "                'Advance Excel. • Core Skills: Data Analysis, Strategy\\n'\n",
+            "                'Development, Ad-Hoc Analysis, Client\\n'\n",
+            "                'Management, Statistical analysis, hypothesis\\n'\n",
+            "                'testing, problem solving, reporting &\\n'\n",
+            "                'visualization. WORK HISTORY\\n'\n",
+            "                'Lince Soft Solutions Private Limited – Hyderabad\\n'\n",
+            "                'Senior Data Analyst, 04/2021 - Current\\n'\n",
+            "                'E Commerce Analytics\\n'\n",
+            "                'Client: Hive loop logistics Pvt Ltd (Udaan)\\n'\n",
+            "                'Technology/Tools: Data modelling, Data warehousing, SQL '\n",
+            "                'Server, SSIS, Power BI\\n'\n",
+            "                'Description: Udaan is a leading B2B e-commerce platform that '\n",
+            "                'connects retailers, wholesalers, and\\n'\n",
+            "                'manufacturers across India. The project involved analyzing '\n",
+            "                'sales performance, supply chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys.',\n",
+            "                'Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance. • Updated and customized reports based on client '\n",
+            "                'requests, ensuring timely and relevant data\\n'\n",
+            "                'analysis. • Designed and developed paginated reports for '\n",
+            "                'structured business reporting needs. • Ensured paginated '\n",
+            "                'reports met business requirements by applying appropriate '\n",
+            "                'formatting,\\n'\n",
+            "                'filtering, and parameterization. • Optimized report rendering '\n",
+            "                'for efficient performance and scalability, ensuring smooth '\n",
+            "                'data\\n'\n",
+            "                'presentation for stakeholders. EDUCATION\\n'\n",
+            "                '• Bachelor in Science: 2013–16\\n'\n",
+            "                'Berhampur University,Odisha\\n'\n",
+            "                'CERTIFICATION\\n'\n",
+            "                '• Microsoft Power BI Data Analyst Professional Certificate '\n",
+            "                '(PL 300). • MCSA Certified: SQL 2016 BI Development. • Data '\n",
+            "                'Analyst from Hi-Tech institute. PERSONAL DETAILS\\n'\n",
+            "                '• Language: English, Hindi, Odia',\n",
+            "                'The project involved analyzing sales performance, supply '\n",
+            "                'chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys. • Provide detailed analysis '\n",
+            "                'of path to registration and path to purchase to improve '\n",
+            "                'conversion\\n'\n",
+            "                'funnel. • Daily monitoring of e-commerce platforms. • '\n",
+            "                'Analyzing performance of promotional campaigns and customer '\n",
+            "                'behavior data for the online channel. • Built Power BI '\n",
+            "                'dashboards that provided real-time visibility into product '\n",
+            "                'performance, reducing\\n'\n",
+            "                'analysis time by 30% and empowering management with '\n",
+            "                'actionable insights. Loyalty Marketing Analysis\\n'\n",
+            "                'Client: GMS Marketing Service, Singapore\\n'\n",
+            "                'Technology/Tools: SQL Server, SSIS, Power BI. Description: '\n",
+            "                'Specialize in a blend of cutting-edge marketing strategies, '\n",
+            "                'loyalty techniques, and\\n'\n",
+            "                'technology to enhance brand engagement and influence. '\n",
+            "                'Developed and executed a variety of marketing\\n'\n",
+            "                'strategies, leveraging loyalty methodologies and the latest '\n",
+            "                'technologies to foster long-term,\\n'\n",
+            "                'sustainable relationships. Crafted tailored PRM/CRM '\n",
+            "                'strategies to meet the dynamic needs of our\\n'\n",
+            "                'clients, focusing on automation and digital transformation to '\n",
+            "                'enhance customer and partner\\n'\n",
+            "                'relations. Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance.']],\n",
+            " 'embeddings': None,\n",
+            " 'ids': [['Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c0',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c2',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c1']],\n",
+            " 'included': ['documents', 'metadatas', 'distances'],\n",
+            " 'metadatas': [[{'chunk_index': 0,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 2,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 1,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'}]],\n",
+            " 'uris': None}\n",
+            "No docs retrieved. Returning fallback answer.\n",
+            "ANSWER:\n",
+            " No relevant sources found.\n",
+            "\n",
+            "SOURCES (meta):\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Test it\n",
+        "q = \"Summarize the pdf in short and simple\"\n",
+        "resp = rag_answer_safe(q, top_k=4, debug=True)\n",
+        "print(\"ANSWER:\\n\", resp[\"answer\"])\n",
+        "print(\"\\nSOURCES (meta):\")\n",
+        "for s in resp[\"sources\"]:\n",
+        "    print(s[\"meta\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kphAwgd93fsY",
+        "outputId": "556bfbdf-2ad0-4e66-cae3-ddd571122df0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Unexpected query result shape: <class 'dict'>\n",
+            "{'data': None,\n",
+            " 'distances': [[1.8508903980255127, 1.8653703927993774, 1.9691920280456543]],\n",
+            " 'documents': [['Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance. • Updated and customized reports based on client '\n",
+            "                'requests, ensuring timely and relevant data\\n'\n",
+            "                'analysis. • Designed and developed paginated reports for '\n",
+            "                'structured business reporting needs. • Ensured paginated '\n",
+            "                'reports met business requirements by applying appropriate '\n",
+            "                'formatting,\\n'\n",
+            "                'filtering, and parameterization. • Optimized report rendering '\n",
+            "                'for efficient performance and scalability, ensuring smooth '\n",
+            "                'data\\n'\n",
+            "                'presentation for stakeholders. EDUCATION\\n'\n",
+            "                '• Bachelor in Science: 2013–16\\n'\n",
+            "                'Berhampur University,Odisha\\n'\n",
+            "                'CERTIFICATION\\n'\n",
+            "                '• Microsoft Power BI Data Analyst Professional Certificate '\n",
+            "                '(PL 300). • MCSA Certified: SQL 2016 BI Development. • Data '\n",
+            "                'Analyst from Hi-Tech institute. PERSONAL DETAILS\\n'\n",
+            "                '• Language: English, Hindi, Odia',\n",
+            "                'KIRAN KUMAR LENKA\\n'\n",
+            "                'Data Analyst\\n'\n",
+            "                '● Hyderabad, India 751024 ● 9178052229 ● '\n",
+            "                'kirankumar1.analyst@gmail.com\\n'\n",
+            "                '● https://www.linkedin.com/in/kiran-kumar-lenka\\n'\n",
+            "                'PROFESSIONAL SUMMARY\\n'\n",
+            "                'Detail-oriented and results-driven Data Analyst with 4+ years '\n",
+            "                'of experience in collecting, analyzing,\\n'\n",
+            "                'and interpreting complex data to drive business decisions. '\n",
+            "                'Skilled in SQL, Python, Excel, Power BI,\\n'\n",
+            "                'and Tableau with proven expertise in building dashboards, '\n",
+            "                'generating actionable insights, and\\n'\n",
+            "                'optimizing reporting processes. Strong background in data '\n",
+            "                'visualization, statistical analysis, and\\n'\n",
+            "                'business intelligence, with the ability to collaborate across '\n",
+            "                'teams to improve performance and support\\n'\n",
+            "                'strategic decision-making. Adept at handling large datasets, '\n",
+            "                'ensuring data accuracy, and presenting\\n'\n",
+            "                'findings to both technical and non-technical stakeholders. '\n",
+            "                'SKILLS\\n'\n",
+            "                '• Programming Languages: SQL, DAX, M- • Databases: '\n",
+            "                'PostgreSQL, SQL Server, MySQL. Language. • BI Tools: Power '\n",
+            "                'BI, Report Builder\\n'\n",
+            "                '• ETL Tool & Other Skills: SSIS,\\n'\n",
+            "                'Advance Excel. • Core Skills: Data Analysis, Strategy\\n'\n",
+            "                'Development, Ad-Hoc Analysis, Client\\n'\n",
+            "                'Management, Statistical analysis, hypothesis\\n'\n",
+            "                'testing, problem solving, reporting &\\n'\n",
+            "                'visualization. WORK HISTORY\\n'\n",
+            "                'Lince Soft Solutions Private Limited – Hyderabad\\n'\n",
+            "                'Senior Data Analyst, 04/2021 - Current\\n'\n",
+            "                'E Commerce Analytics\\n'\n",
+            "                'Client: Hive loop logistics Pvt Ltd (Udaan)\\n'\n",
+            "                'Technology/Tools: Data modelling, Data warehousing, SQL '\n",
+            "                'Server, SSIS, Power BI\\n'\n",
+            "                'Description: Udaan is a leading B2B e-commerce platform that '\n",
+            "                'connects retailers, wholesalers, and\\n'\n",
+            "                'manufacturers across India. The project involved analyzing '\n",
+            "                'sales performance, supply chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys.',\n",
+            "                'The project involved analyzing sales performance, supply '\n",
+            "                'chain\\n'\n",
+            "                'efficiency, and customer purchasing behavior to optimize '\n",
+            "                'operations and improve profitability. Key Responsibilities:\\n'\n",
+            "                '• Maintain and provide all daily, weekly, monthly and yearly '\n",
+            "                'reporting from a variety of data\\n'\n",
+            "                'sources to coworkers, manager and senior management. • '\n",
+            "                'Perform POS and Inventory data analysis to provide insights '\n",
+            "                'into category growth, promotional\\n'\n",
+            "                'performance. • Assisted in developing initial Power BI '\n",
+            "                'reports, allowing teams to visualize and track business\\n'\n",
+            "                'KPIs in real-time. • Monitor and improve e-store metrics and '\n",
+            "                'performance of customer journeys. • Provide detailed analysis '\n",
+            "                'of path to registration and path to purchase to improve '\n",
+            "                'conversion\\n'\n",
+            "                'funnel. • Daily monitoring of e-commerce platforms. • '\n",
+            "                'Analyzing performance of promotional campaigns and customer '\n",
+            "                'behavior data for the online channel. • Built Power BI '\n",
+            "                'dashboards that provided real-time visibility into product '\n",
+            "                'performance, reducing\\n'\n",
+            "                'analysis time by 30% and empowering management with '\n",
+            "                'actionable insights. Loyalty Marketing Analysis\\n'\n",
+            "                'Client: GMS Marketing Service, Singapore\\n'\n",
+            "                'Technology/Tools: SQL Server, SSIS, Power BI. Description: '\n",
+            "                'Specialize in a blend of cutting-edge marketing strategies, '\n",
+            "                'loyalty techniques, and\\n'\n",
+            "                'technology to enhance brand engagement and influence. '\n",
+            "                'Developed and executed a variety of marketing\\n'\n",
+            "                'strategies, leveraging loyalty methodologies and the latest '\n",
+            "                'technologies to foster long-term,\\n'\n",
+            "                'sustainable relationships. Crafted tailored PRM/CRM '\n",
+            "                'strategies to meet the dynamic needs of our\\n'\n",
+            "                'clients, focusing on automation and digital transformation to '\n",
+            "                'enhance customer and partner\\n'\n",
+            "                'relations. Key Responsibilities:\\n'\n",
+            "                '• Gathered data from business and accounts teams, focusing on '\n",
+            "                'loyalty marketing needs. • Used SQL and SSIS for data '\n",
+            "                'extraction, transformation, and loading (ETL) to ensure data '\n",
+            "                'quality\\n'\n",
+            "                'and readiness. • Utilized Informatica for data cleaning, '\n",
+            "                'ensuring accuracy and reliability. • Developed data models to '\n",
+            "                'support loyalty marketing strategies and managed data '\n",
+            "                'storage\\n'\n",
+            "                'efficiently. • Created reports and dashboards in Power BI, '\n",
+            "                'providing insights into loyalty marketing\\n'\n",
+            "                'performance.']],\n",
+            " 'embeddings': None,\n",
+            " 'ids': [['Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c2',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c0',\n",
+            "          'Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel_c1']],\n",
+            " 'included': ['documents', 'metadatas', 'distances'],\n",
+            " 'metadatas': [[{'chunk_index': 2,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 0,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'},\n",
+            "                {'chunk_index': 1,\n",
+            "                 'source': '/content/drive/MyDrive/Dataset/Kiran_4+years_DataAnalyst_SQL_PowerBI_Excel.pdf'}]],\n",
+            " 'uris': None}\n",
+            "No docs retrieved. Returning fallback answer.\n",
+            "ANSWER:\n",
+            " No relevant sources found.\n",
+            "\n",
+            "SOURCES (meta):\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "q = \"What is a vector database in simple terms?\"\n",
+        "resp = rag_answer(q, top_k=4)\n",
+        "print(\"ANSWER:\\n\", resp[\"answer\"])\n",
+        "print(\"\\nSOURCES (meta):\")\n",
+        "for s in resp[\"sources\"]:\n",
+        "    print(s[\"meta\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 582
+        },
+        "id": "BXZYRkKpw8Wq",
+        "outputId": "1a8a2fbc-d7ac-49a9-f149-be5b70efc854"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyError",
+          "evalue": "'results'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-4198373836.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mq\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"What is a vector database in simple terms?\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mresp\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mrag_answer\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mq\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtop_k\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m4\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"ANSWER:\\n\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mresp\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"answer\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"\\nSOURCES (meta):\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0ms\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mresp\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"sources\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/tmp/ipython-input-2291925575.py\u001b[0m in \u001b[0;36mrag_answer\u001b[0;34m(query, top_k, max_new_tokens)\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mrag_answer\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mquery\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtop_k\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m5\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmax_new_tokens\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m200\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 11\u001b[0;31m     \u001b[0mdocs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mretrieve\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mquery\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtop_k\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mtop_k\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     12\u001b[0m     \u001b[0mprompt\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0massemble_prompt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mquery\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdocs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m     \u001b[0mout\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mgen_pipeline\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmax_new_tokens\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mmax_new_tokens\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdo_sample\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mFalse\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/tmp/ipython-input-2694444793.py\u001b[0m in \u001b[0;36mretrieve\u001b[0;34m(query, top_k)\u001b[0m\n\u001b[1;32m      2\u001b[0m     \u001b[0mq_emb\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0membed_model\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mencode\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mquery\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtolist\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m     \u001b[0mresults\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcollection\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mquery\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mquery_embeddings\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mq_emb\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mn_results\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mtop_k\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minclude\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"documents\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"metadatas\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"distances\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m     \u001b[0mrows\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mresults\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'results'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m     \u001b[0mdocs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m{\u001b[0m\u001b[0;34m\"text\"\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mt\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"meta\"\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mm\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"score\"\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0ms\u001b[0m\u001b[0;34m}\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mt\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mm\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0ms\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mzip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mrows\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'documents'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mrows\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'metadatas'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mrows\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'distances'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mdocs\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyError\u001b[0m: 'results'"
+          ]
+        }
+      ]
+    }
+  ]
+}
